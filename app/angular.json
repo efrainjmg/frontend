@@ -44,7 +44,9 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "none",
+              "optimization": true,
+              "sourceMap": false
             },
             "development": {
               "optimization": false,
@@ -86,5 +88,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e406d017-a502-4bd4-ad91-08ed709ada44"
   }
 }
